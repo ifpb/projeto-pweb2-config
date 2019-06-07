@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    username: postgres
+    password: docker
+    url: jdbc:postgresql://localhost:5432/rede-social
+  jpa:
+    hibernate:
+      ddl-auto: none
+
+server:
+  port: 8082
