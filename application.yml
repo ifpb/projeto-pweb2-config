@@ -6,3 +6,9 @@ eureka:
     fetch-registry: true
     service-url:
       defaultZone: http://localhost:8761/eureka
+
+
+application:
+  jwt:
+    secret: pweb2-eh-legal
+    expirationTimeInSeconds: 3600 
